@@ -33,14 +33,127 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Delicious food delivered fast</h1>
-            <p>Order your favourite meals anytime and anywhere</p>
-            <button>Order now</button>
+    <!-- Personalized Hero Section -->
+    <section class="shop-hero">
+        <div class="container">
+            <h1>Create Your Personalized Gift</h1>
+            <p>Design a unique gift that's made just for them</p>
         </div>
     </section>
-    
+
+    <!-- Personalization Form Section -->
+    <section class="personalized-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Create Your Personalized Gift</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="giftSelect">Select Gift</label>
+                        <select id="giftSelect" required>
+                            <option value="">Choose a gift type</option>
+                            <option value="mug">Personalized Mug</option>
+                            <option value="keychain">Personalized Keychain</option>
+                            <option value="photoframe">Photo Frame</option>
+                            <option value="tshirt">Customized T-Shirt</option>
+                            <option value="cushion">Personalized Cushion</option>
+                            <option value="giftbox">Customized Gift Box</option>
+                            <option value="card">Personalized Greeting Card</option>
+                            <option value="hamper">Personalized Hamper</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="occasionSelect">Select Occasion</label>
+                        <select id="occasionSelect" required>
+                            <option value="">Choose an occasion</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="anniversary">Anniversary</option>
+                            <option value="friendship">Friendship Day</option>
+                            <option value="mothersday">Mother's Day</option>
+                            <option value="fathersday">Father's Day</option>
+                            <option value="sistersday">Sister's Day</option>
+                            <option value="brothersday">Brother's Day</option>
+                            <option value="valentine">Valentine's Day</option>
+                            <option value="raksha">Raksha Bandhan</option>
+                            <option value="diwali">Diwali</option>
+                            <option value="sorry">Sorry</option>
+                            <option value="thankyou">Thank You</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customMessage">Customization Message</label>
+                        <textarea id="customMessage" rows="5" placeholder="Write your customization message here... Describe what you want customized, any text, names, dates, or special requests." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additionalInstructions">Additional Instructions</label>
+                        <textarea id="additionalInstructions" rows="3" placeholder="Any special instructions for your personalized gift..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="photoUpload">Upload Photo</label>
+                        <input type="file" id="photoUpload" accept="image/*">
+                        <small>Upload a photo for your personalized gift (optional)</small>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Customization</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sweetly Wrapped</h3>
+                    <p>Your trusted destination for thoughtful gifts. Making every celebration special with love and care.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="occasions.html">Occasions</a></li>
+                        <li><a href="personalized.html">Personalized</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customer Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweetly Wrapped. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
